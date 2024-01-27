@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="header">
+      <h1>Tower of Hanoi</h1>
+      <select id="input--disc" placeholder="No. of Discs">
+        <option value="2" selected>2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+      </select>
+      <button id="start">Start</button> <br /><br />
+      <div>Steps : <span id="steps">0</span></div>
+    </section>
+    <section id="main">
+      <div class="pipes" id="pipe-1"></div>
+      <div class="pipes" id="pipe-2"></div>
+      <div class="pipes" id="pipe-3"></div>
+    </section>
+    <hr />
+    <script src="script.js"></script>
+  </body>
+</html>
